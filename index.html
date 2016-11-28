@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	<title>Caterpillar</title>
+	<link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<h1 onclick="scrollTo(0)">Caterpillar</h1>
+	<div class="nav">
+		<a class="btn" id="scr-home" onclick="scrollTo(0)">HOME</a>
+		<a class="btn" id="scr-about" onclick="scrollTo('#about')">ABOUT</a>
+		<a class="btn" id="scr-portfolio" onclick="scrollTo('#portfolio')">PORTFOLIO</a>
+		<a class="btn" id="scr-contact" onclick="scrollTo('#contact')">CONTACT</a>
+	</div>
+
+	<div id="home">
+		<div class="h-container">
+			<div class="title">
+				<h2>Front-End Web Developer</h2><br/>
+				<a class="btn" onclick="scrollTo('#portfolio')">View Portfolio</a>
+				<a class="btn" href="张赟崇-男-前端实习-18753377303">View Resume</a>
+			</div>
+		</div>
+	</div>
+	<div id="about">
+		<div class="content">
+			<img src="image/mtr.jpg">
+			<br>
+			<h2>Hello   World</h2>
+			<div style="clear:both"></div>
+			<p>	
+				I'm 张赟(yun)崇 and I like programming in JavaScript and CSS.
+			</p>
+
+			<p>
+				Currently I'm learning Node.Js.And I plan to learn React as well in near future.
+			</p>
+
+			<p>
+				I like spending my time making small projects because creating new things makes me happy.
+			</p>
+			
+			<p>This website contains some of my works.</p>
+			<br/>
+			<hr>
+		</div>
+	</div>
+
+	<div id="portfolio">
+		<div class="content">
+			<h2>Portfolio</h2>
+			<div class="my-work">
+				<div class="work-container">
+					<div class="card">
+						<div class="card-image">
+							<img src="image/simon.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator">Simon</span>
+						</div>
+						<div class="card-action">
+							<p><a href="http://codepen.io/Caterpillar_c/pen/MbvQjL" target="_blank">Open in CodePen</a></p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title">Simon</span>
+							<p>Recreated the classic game with a personal style</p>
+							<h4>Technology Used</h4>
+							<ul>
+								<li>JavaScript</li>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>jQuery</li>
+								<li>SASS</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class="work-container">
+					<div class="card">
+						<div class="card-image">
+							<img src="image/mysite.png" class="activator">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator">My Portfolio</span>
+						</div>
+						<div class="card-action">
+							<p><a href="#" target="_blank">Open in Github</a></p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title">My Portfolio</span>
+							<p>You'r browsing it right now. Use CSS and JavaScript to create my own molile responsive Page.</h4>
+							<ul>
+								<li>Javascript</li>
+								<li>HTMl</li>
+								<li>CSS</li>
+								<li>jQuery</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="work-container">
+					<div class="card">
+						<div class="card-image">
+							<img src="image/wiki.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator">WikiSearch</span>
+						</div>
+						<div class="card-action">
+							<p><a href="http://codepen.io/Caterpillar_c/pen/XNaZNL" target="_blank">Open in CodePen</a></p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title">WikiSearch</span>
+							<p>Use the Wikipedia API to create a mobile responsive Wikipedia Search site.User can search Wikipedia with a search box and recive a list of results
+							<h4>Technology Used</h4>
+							<ul>
+								<li>JavaScript</li>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>jQuery</li>
+								<li>AJAX</li>
+								<li>Wikipedia API</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="work-container">
+					<div class="card">
+						<div class="card-image">
+							<img src="image/tic.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator">Tic Tac Toe</span>
+						</div>
+						<div class="card-action">
+							<p><a href="http://codepen.io/Caterpillar_c/pen/ZBJrLP" target="_blank">Open in CodePen</a></p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title">Tic Tac Toe</span>
+							<p>Used Javascript and jQuery to create the classic game Tic Tac Toe.Due to the high-level AI,it's impossble to win,the best situation is a tie.</p>
+							<h4>Technology Used</h4>
+							<ul>
+								<li>Javascript</li>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>jQuery</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="work-container">
+					<div class="card">
+						<div class="card-image">
+							<img src="image/clock.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator">Pomodoro Timer</span>
+						</div>
+						<div class="card-action">
+							<p><a href="http://codepen.io/Caterpillar_c/pen/mOMXOm" target="_blank">Open in CodePen</a></p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title">Pomodoro Timer</span>
+							<p>User can customize their pomodoro session lengths to fit their needs</p>
+							<h4>Technology Used</h4>
+							<ul>
+								<li>Javascript</li>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>jQuery</li>
+								<li>progressbar.js</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="work-container">
+					<div class="card">
+						<div class="card-image">
+							<img src="image/calcu.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator">JS Calculator</span>
+						</div>
+						<div class="card-action">
+							<p><a href="http://codepen.io/Caterpillar_c/pen/LbjQxG" target="_blank">Open in CodePen</a></p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title">JS Calculator</span>
+							<p>Used Javascript to create a simple,mobile responsive calculator</p>
+							<h4>Technology Used</h4>
+							<ul>
+								<li>Javascript</li>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>jQuery</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				
+
+				<div class="work-container" >
+					<div class="card">
+						<div class="card-image">
+							<img src="image/2048.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator">2048</span>
+						</div>
+						<div class="card-action">
+							<p><a href="http://codepen.io/Caterpillar_c/pen/aBLJVj" target="_blank">Open in CodePen</a></p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title">2048</span>
+							<p>Use Javascript to create a classic game 2048</p>
+							<h4>Technology Used</h4>
+							<ul>
+								<li>JavaScript</li>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>jQuery</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="work-container" >
+					<div class="card">
+						<div class="card-image">
+							<img src="image/Draw.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator">Drawing</span>
+						</div>
+						<div class="card-action">
+							<p><a href="" target="_blank">Open in CodePen</a></p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title">Drawing</span>
+							<p>Use HTML5 canvas create a simple drawing app,offers few options to draw,still has some visible bugs.</p>
+							<h4>Technology Used</h4>
+							<ul>
+								<li>JavaScript</li>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>Canvas</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="work-container" style="visibility: hidden;">
+					<div class="card">
+						<div class="card-image">
+							<img src="image/2048.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator">2048</span>
+						</div>
+						<div class="card-action">
+							<p><a href="" target="_blank">Open in Github</a></p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title">2048</span>
+							<p>Use HTML5 canvas,create a simple drawing app.</p>
+							<h4>Technology Used</h4>
+							<ul>
+								<li>JavaScript</li>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>jQuery</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				
+
+			</div>
+		</div>
+	</div>
+
+	<div id="contact">
+		<div id="contact-container">
+			<h3>Contact</h3>
+			<div id="contact-info">
+				<div id="contact-phone">
+					<h4>Phone</h4>
+					<p>18753377303</p>
+				</div>
+				<div id="resume">
+					<span onclick="download()">Resume</span>
+				</div>
+				<div id="contact-mail">
+					<h4>E-mail</h4>
+					<p><a href="mailto:caterplliar_c@outlook.com">caterplliar_c@outlook.com</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="contact-form">
+		<form onsubmit="handleSubmit(event)">
+			<input type="email" id="sender-email" placeholder="E-mail Address">
+			<textarea id="message" placeholder="Messages"></textarea>
+			<input type="submit">
+		</form>
+	</div>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
