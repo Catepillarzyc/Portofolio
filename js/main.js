@@ -19,12 +19,12 @@ function scrollTo(pos) {
 }
 
 function handleSubmit(e) {
-	alert('大懒虫还没有修好它');
+	alert('大懒虫还没有修好它，sorry');
 	// e.preventDefault();
 	// sendMail();
 }
 function download() {
-	window.location.href = "张赟崇-男-前端实习-18753377303.pdf";
+	window.location.href = "https://catepillarzyc.github.io/Resume";
 }
 // function sendMail() {
 // 	var from = $('#sender-email').val(),
