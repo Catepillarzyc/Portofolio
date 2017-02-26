@@ -120,19 +120,20 @@ h1 {
 	background: #EEE;
 	margin: 0 auto;
 	text-align: left;
-	padding: 10px 15%;
+	padding: 40px 15%;
 
 }
 #about img {
-	height: 120px;
-	width: 120px;
+	height: 185px;
+	width: 138px;
 	float: left;
-	margin-top: -75px;
-	border-radius: 50%;
-	border: 5px solid #F7F0E9;
+	margin-top: -155px;
+	border-radius: 20%;
+	border: none;
 }
 #about h2 {
 	float: right;
+	margin-top: -10px;
 }
 #about p {
 	color: #3C3C3C;
@@ -204,7 +205,6 @@ h1 {
 	margin-left: 20px;
 	margin-bottom: 10px
 }
-
 .card-reveal h4 {
 	font-weight: bold;
 	font-size: 22px;
